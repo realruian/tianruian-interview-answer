@@ -1,10 +1,10 @@
-# AI 漫剧面试，把答案说到点子上
+# 田睿安的 AI 漫剧面试回答法
 
-### My Interview Answer · 田睿安的面试回答 Skill
+### Tian Ruian Interview Answer · 把答案说到点子上
 
 > **在阿里、京东、美团任职；国内主流大厂的 Offer 几乎拿了个遍；拿下百万年薪 Offer。现在，我把这些年练出来的面试回答方式，做成一个可以直接用的 Skill。**
 
-面试官抛出一句“你们做这种剧，最在意什么”，你只有一两分钟，让对方听到你的内容判断、制作思路和实际做法。**My Interview Answer** 就是为这样的时刻准备的：给它一道题，再给它你的真实材料，它会帮你组织成有结论、有例子、能开口说的中文逐字稿。
+面试官抛出一句“你们做这种剧，最在意什么”，你只有一两分钟，让对方听到你的内容判断、制作思路和实际做法。**田睿安的 AI 漫剧面试回答法**就是为这样的时刻准备的：给它一道题，再给它你的真实材料，它会帮你组织成有结论、有例子、能开口说的中文逐字稿。
 
 `接住问题 → 先给判断 → 分点讲透 → 用例子和做法撑住 → 收回到岗位`
 
@@ -57,7 +57,7 @@
 在支持 Agent Skills 的工具里安装后，输入：
 
 ```text
-使用 my-interview-answer，回答这道 AI 漫剧岗位面试题：
+使用 tianruian-interview-answer，回答这道 AI 漫剧岗位面试题：
 “你是如何使用 AI 去提效整个工作流程的？”
 请写成 1～2 分钟能说完的中文逐字稿。
 ```
@@ -65,7 +65,7 @@
 如果题目要讲你的工作成果，建议把材料一并给出：
 
 ```text
-使用 my-interview-answer，回答：
+使用 tianruian-interview-answer，回答：
 “你做 AI 漫剧时遇到过什么难题？怎么解决的？”
 
 岗位：……
@@ -88,10 +88,10 @@
 
 ```bash
 mkdir -p ~/.agents/skills
-git clone https://github.com/realruian/my-interview-answer.git ~/.agents/skills/my-interview-answer
+git clone https://github.com/realruian/my-interview-answer.git ~/.agents/skills/tianruian-interview-answer
 ```
 
-也可以下载本仓库 ZIP，解压后把整个文件夹放到 `~/.agents/skills/my-interview-answer/`。确认目录内直接有 `SKILL.md`。
+也可以下载本仓库 ZIP，解压后把整个文件夹放到 `~/.agents/skills/tianruian-interview-answer/`。确认目录内直接有 `SKILL.md`。
 
 ### Claude Code
 
@@ -99,12 +99,12 @@ git clone https://github.com/realruian/my-interview-answer.git ~/.agents/skills/
 
 ```bash
 mkdir -p ~/.claude/skills
-ln -s ~/.agents/skills/my-interview-answer ~/.claude/skills/my-interview-answer
+ln -s ~/.agents/skills/tianruian-interview-answer ~/.claude/skills/tianruian-interview-answer
 ```
 
-也可以直接将文件夹放到 `~/.claude/skills/my-interview-answer/`。其他支持 Agent Skills 的工具，请查看其个人 Skill 目录；网页端和云端产品通常需要在产品内单独导入。
+也可以直接将文件夹放到 `~/.claude/skills/tianruian-interview-answer/`。其他支持 Agent Skills 的工具，请查看其个人 Skill 目录；网页端和云端产品通常需要在产品内单独导入。
 
-安装后，在工具的 Skill 列表确认 `my-interview-answer` 已出现。已有会话未显示时，可刷新列表或开启新会话。
+安装后，在工具的 Skill 列表确认 `tianruian-interview-answer` 已出现。已有会话未显示时，可刷新列表或开启新会话。
 
 ## 真正让答案有分量的，是你的经历
 
